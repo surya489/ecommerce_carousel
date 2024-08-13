@@ -1,0 +1,14 @@
+.d_block {
+    display: block;
+}
+
+.left {
+    border-radius: 10px;
+    background: #ccc;
+}
+
+.left img {
+    margin: auto;
+    object-fit: contain;
+    height: 100%;
+}

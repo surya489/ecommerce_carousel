@@ -1,0 +1,18 @@
+.center {
+    display: block;
+    padding: 0 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #ccc;
+}
+
+.center {
+    padding: 60px;
+}
+
+.center+.center {
+    padding-bottom: 0;
+}

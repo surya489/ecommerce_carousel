@@ -1,0 +1,10 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.col_50 {
+    width: 50%;
+}

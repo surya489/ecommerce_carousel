@@ -4,6 +4,62 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: bisque;
+}
+
+.col_80 {
+    width: 80%;
+    display: block;
+}
+
+.col_20 {
+    width: 20%;
+    display: block;
+}
+
+.gap_15 {
+    gap: 15px;
+}
+
+.email {
+    padding: 8px 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #00712D;
+    box-sizing: border-box;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.email:focus {
+    border-color: #00712D;
+    outline: none;
+}
+
+.footer h3,
+.footer p {
+    margin: 0;
+}
+
+.footer_right p,
+.footer_left p {
+    margin: 10px 0 0;
+}
+
+.footer_right p span {
+    padding-left: 8px;
+}
+
+.footer_right p span a {
+    /* text-decoration: none; */
+    color: #22252a;
+    opacity: 0.5;
+    transition: all .5s;
+}
+
+.footer_right p span a:hover {
+    opacity: 1;
 }

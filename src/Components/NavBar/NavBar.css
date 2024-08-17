@@ -1,4 +1,4 @@
-.center.px_0 {
+.center.py_0 {
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 .icons_List {
@@ -20,12 +20,21 @@
 }
 
 .icons_List li {
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
+}
+
+.icons_List li svg {
+    transition: all .5s;
+}
+
+.icons_List li svg:hover {
+    color: #22252a;
 }
 
 .navbar a {
     display: block;
     text-decoration: none;
     color: #000;
+    font-size: 20px;
 }

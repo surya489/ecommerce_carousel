@@ -1,0 +1,88 @@
+.carousel_wrap {
+    position: relative;
+    width: 100%;
+}
+
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.navigation_arrows {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    align-items: center;
+    left: 0;
+}
+
+.arrow {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    display: block;
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.arrow:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+.arrow.arrow_left {
+    left: -10px;
+}
+
+.arrow.arrow_right {
+    right: -10px;
+}
+
+.arrow.disable {
+    cursor: not-allowed;
+}
+
+.arrow svg {
+    width: 10px;
+    height: 10px;
+    display: block;
+    transition: all .5s;
+}
+
+.arrow:hover svg {
+    color: #fff;
+}
+
+.pagination {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.dots {
+    display: block;
+    width: 15px;
+    height: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.25);
+    transition: all .5s;
+}
+
+.dots:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.dots.active {
+    background: rgba(0, 0, 0, 0.6);
+}
